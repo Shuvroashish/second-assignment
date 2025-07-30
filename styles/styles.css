@@ -28,12 +28,9 @@
 .lemon{
     color: #E95A08;
 }
-
 .banner{
-    align-items: center;
-    justify-content: space-between;
-    /* margin: 0 130px; */
-    padding-right: 40px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /*navber realted styles*/
@@ -41,6 +38,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
+   
 }
 
 .logo{
@@ -61,7 +60,6 @@
    margin-right: 0px;
 }
 .nav-link{
- 
     text-decoration: none;
     align-items: center;
 }
@@ -221,6 +219,57 @@
 .deal-para{
     font-size: 1em;
     margin-top: -10px;
+}
+
+/* --- Footer Section --- */
+.footer-section {
+    padding: 80px 0;
+    max-width: 1120px;
+}
+
+.footer-container {
+    justify-content: space-between;
+    gap: 40px;
+    margin-left: 150px;
+}
+
+.footer-info {
+    max-width: 300px;
+}
+
+.footer-logo {
+    max-width: 135px;
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-size: 1em;
+   
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list-item {
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-size: 1em;
+   
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.social-link img {
+    width: 30px;
+    height: 30px;
 }
 
 /*responsive media query*/
